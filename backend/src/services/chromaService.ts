@@ -49,18 +49,3 @@ class chromaService{
 
 };
  export default chromaService;
-
-// chroma setup
-// cd ~/OneDrive/Code/Repos/LangChain-Financial-Tracker/backend
-// python -m venv .venv
-// source .venv/Scripts/activate      # MINGW64 / Git Bash
-// # or: .venv\Scripts\activate       # cmd / PowerShell
-// 2. Install Chroma:
-
-// bash
-// pip install chromadb
-// 3. Run the server:
-
-// bash
-// chroma run --path ./getting-started
-// It'll bind to http://localhost:8000 by default.
