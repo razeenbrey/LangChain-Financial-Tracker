@@ -81,13 +81,3 @@ app.post('/query', async (req, res) => {
 app.listen(PORT, () =>{
     console.log(`Server running at http://localhost:${PORT}`)
 });
-
-// health check
-// curl http://localhost:3000/health
-
-// upload doc - forward slashes
-// curl -X POST http://localhost:3000/upload \-H "Content-Type: application/json" \-d '{"path": "C:/Users/razee/OneDrive/Code/Repos/LangChain-Financial-Tracker/backend/src/data/bank_statement_0001.pdf"}'
-// curl -X POST http://localhost:3000/upload \-H "Content-Type: application/json" \-d '{"path": "C:/Users/razee/OneDrive/Code/Repos/LangChain-Financial-Tracker/backend/src/data/receipt_0001.pdf"}'
-
-// query
-// curl -X POST http://localhost:3000/query \-H "Content-Type: application/json" \-d '{"query": "How many notebooks did i buy from Rodriguez?"}'

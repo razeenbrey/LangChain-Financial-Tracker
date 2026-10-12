@@ -2,6 +2,8 @@
 
 A personal financial assistant that turns your uploaded financial documents into a queryable knowledge base. Documents are embedded and stored in a `ChromaDB` vector database, then retrieved and reasoned over by a `LangChain` RAG pipeline backed by Google Gemini - so you can ask natural-language questions like *"What's my current utility bill?"* and get answers grounded in your own statements, not hallucinations.
 
+> **Note:** Some sample training data is provided in `backend/src/data` these were extracted from the Kaggle Dataset <a href="https://www.kaggle.com/datasets/miadul/multi-document-dataset-for-ocr-document-ai-and-llm">Multi-Document Dataset for OCR, Document AI & LLM</a>.
+
 ## Getting Started
 Navigate to the project root `LangChain-Financial-Tracker` and run the following:
 ```bash
