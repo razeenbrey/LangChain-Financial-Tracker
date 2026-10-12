@@ -17,23 +17,27 @@ npm install
 
 In a serparate terminal instance setup your `ChromaDB` instance using `Docker` or the following (`Python`):
 
-    Setup a virtual environment (`.venv`) and activate it:
+- Setup a virtual environment (`.venv`) and activate it:
+
     ```bash
     python -m venv .venv
     source .venv/Scripts/activate      # MINGW64 / Git Bash
     # or: .venv\Scripts\activate       # cmd / PowerShell
     ```
 
-    Next, install `ChromaDB` via `pip`:
+- Next, install `ChromaDB` via `pip`:
+
     ```bash
     pip install chromadb
     ```
 
-    Now run `chromadb` (It'll bind to http://localhost:8000 by default.)
+- Now run `chromadb` (It'll bind to http://localhost:8000 by default.)
+
     ```bash
     chroma run --path ./getting-started
     ```
-    *Use `cntrl` + `c` to exit.*
+
+- *Use `cntrl` + `c` to exit.*
 
 Finally, run the following in the backend folder:
 ```bash
