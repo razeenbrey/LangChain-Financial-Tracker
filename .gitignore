@@ -1,0 +1,94 @@
+# ==========================================
+# Dependencies
+# ==========================================
+node_modules/
+jspm_packages/
+web_modules/
+
+# ==========================================
+# Debugging & Logs
+# ==========================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+# Ignore actual secret files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# DO NOT ignore the example template if you use one
+!.env.example
+
+# ==========================================
+# Testing & Code Coverage
+# ==========================================
+coverage/
+.nyc_output/
+.jest/
+
+# ==========================================
+# Build, Transpilation, and Runtime Artifacts
+# ==========================================
+dist/
+build/
+lib-cov/
+*.seed
+*.pid
+*.pid.lock
+.node_repl_history
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Tooling caches
+.eslintcache
+.prettiercache
+.npm/
+
+# ==========================================
+# OS & IDE Specific Files (Optional but Recommended)
+# ==========================================
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ==========================================
+# Python (Chroma CLI venv)
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+.python-version
+
+# ==========================================
+# ChromaDB persisted data
+# ==========================================
+getting-started/
+chroma-data/
+.chroma/
